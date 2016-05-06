@@ -1,0 +1,53 @@
+# Path to a TLS certificate for the server, in PEM format.  Concatenate any intermediate certificates.
+tlscert = 'c:\dev\tls\prod_combo_cert.pem'
+
+# Path to a TLS private key correspoding to the server certificate, in PEM format
+tlskey = 'c:\dev\tls\prod_server_key.pem'
+
+# Path to a PGP secure keyring used to protect files in the FileVault.  Don't lose or disclose it!
+secring = 'secring.gpg'
+
+# The passphrase to decrypt the FileVault private PGP key.  This should be closely guarded.
+masterkeyPassphrase = 'glum ted lass frisky deed styx'
+
+# Master key fingerprint (confirmed at startup and printed to log)
+masterkeyFingerprint = 'B550 5292 C790 CB49 E474  92E9 E7DE 9EB5 A51D 1ACB'
+
+# Path to a directory under which encrypted files will be stored
+dataroot = 'c:\Temp\FileMaster\data'
+
+# Path to a directory under which an encrypted key will be stored for each file
+keyroot = 'c:\Temp\FileMaster\keys'
+
+# Path to a directory under which a metadata file will be stored for each file
+metaroot = 'c:\Temp\FileMaster\meta'
+
+# Path to a directory where encrypted files will be exported for Prod Support.
+# Should be a location reasonably limited to prod support personnel.
+prodSupportDir = 'c:\Temp\FileMaster\support'
+
+# Path to keyring of public keys authorized to export files from the FileVault.
+# Files will only be exported after being encrypted with an identity on this
+# keyring. People on prod support will need the corresponding private key.
+# Receipients are identified by the fingerprint associated with the key.
+prodSupportPubring = 'c:\dev\tls\prod-support-keys.gpg'
+
+# Path to an Htpasswd file with credentials for users who are authorized
+# to pull unencrypted files from the vault
+htpasswdFile = 'filevault.htpasswd'
+
+# Email address from which error messages will be sent
+emailFrom = 'FileVault <prodsupport@example.com>'
+
+# Email address to receive error messages
+emailTo = 'Jonathan Summer <person@example.com>'
+
+# Internal SMTP server for sending error emails (authentication not supported)
+SMTPServer = 'smtp.foo.com'
+
+# Internal SMTP port for sending error emails (authentication not supported)
+SMTPPort = 25
+
+# Path to vault's http server logfile.  If blank or invalid, standard out will be used
+# It stores details about each request.
+HttpLog = 'c:\Temp\FileMaster\logs\vault-http.log'

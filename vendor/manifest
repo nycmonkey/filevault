@@ -1,0 +1,138 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/BurntSushi/toml",
+			"repository": "https://github.com/BurntSushi/toml",
+			"revision": "bbd5bb678321a0d6e58f1099321dfa73391c1b6f",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "4b6ea7319e214d98c938f12692336f7ca9348d6b",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/Sirupsen/logrus/formatters",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "4b6ea7319e214d98c938f12692336f7ca9348d6b",
+			"branch": "master",
+			"path": "/formatters",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/abbot/go-http-auth",
+			"repository": "https://github.com/abbot/go-http-auth",
+			"revision": "ca62df34b58d26b6a064246c21c0a18f97813173",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/gorilla/context",
+			"repository": "https://github.com/gorilla/context",
+			"revision": "1ea25387ff6f684839d82767c1733ff4d4d15d0a",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/gorilla/mux",
+			"repository": "https://github.com/gorilla/mux",
+			"revision": "0eeaf8392f5b04950925b8a69fe70f110fa7cbfc",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/justinas/alice",
+			"repository": "https://github.com/justinas/alice",
+			"revision": "671ef6b31288a51b5517ba2f1349e781b91a4da3",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/nycmonkey/httputil",
+			"repository": "https://github.com/nycmonkey/httputil",
+			"revision": "2f44560ad9933d4283d4777bf8d43474d4bcc73a",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/pquerna/ffjson",
+			"repository": "https://github.com/pquerna/ffjson",
+			"revision": "7327d038fae6927740461371efe7f330c23c3e5f",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/zbindenren/logrus_mail",
+			"repository": "https://github.com/zbindenren/logrus_mail",
+			"revision": "8786ecac519d402f4289e3311c0e6844ceeac975",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/crypto/bcrypt",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/bcrypt",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/crypto/blowfish",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/blowfish",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/crypto/cast5",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "b8a0f4bb4040f8d884435cff35b9691e362cf00c",
+			"branch": "master",
+			"path": "/cast5",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/crypto/openpgp",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "b8a0f4bb4040f8d884435cff35b9691e362cf00c",
+			"branch": "master",
+			"path": "/openpgp",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/crypto/openpgp/packet",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "b8a0f4bb4040f8d884435cff35b9691e362cf00c",
+			"branch": "master",
+			"path": "/openpgp/packet",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "1aafd77e1e7f6849ad16a7bdeb65e3589a10b2bb",
+			"branch": "master",
+			"path": "/context",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/airbrake/gobrake.v2",
+			"repository": "https://gopkg.in/airbrake/gobrake.v2",
+			"revision": "31c8ff1fb8b79a6947e6565e9a6df535f98a6b94",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"repository": "https://gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"revision": "31e6fd4bd5a98d8ee7673d24bc54ec73c31810dd",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
